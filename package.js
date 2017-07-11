@@ -14,6 +14,7 @@ Package.onUse(function(api) {
         'lib/_icsUtils.js',
         'ics-generator.js',
         'lib/event.js',
+        'lib/alarm.js',
         'lib/attendee.js'
     ]);
 });

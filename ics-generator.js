@@ -71,6 +71,10 @@ _.extend(IcsGenerator.prototype, {
         return new IcsAttendee(attendee);
     },
 
+    createAlarm: function(alarm) {
+        return new IcsAlarm(alarm);
+    },
+
     addEvent: function(event) {
         return this.events.push(new IcsEvent(event));
     },
